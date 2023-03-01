@@ -18,36 +18,36 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("20765181", ""))
+API_HASH = getenv("e8ec2b740ac91dfce31faa3ef654d1a4")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6184529513:AAHY-c1E0Oxgo1etgXa0CV6ABiBLfTrP3ow")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://Nihilanth1:<Veysi.(4567)>@kaosmedya.zpnychq.mongodb.net/?retryWrites=true&w=majority", True)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("-1001532683287", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "乛𝘼𝙇𝙀𝙓𝘼🕊️⃝🦋⁪⁬𝙈𝙐𝙎𝙄𝘾")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Huma")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6174058850").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5894454190").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID")
+BOT_ID = getenv("6184529513")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheTeamAlexa/AlexaMusic",
+    "https://github.com/Veysitasci/Huma",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("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", True)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Alexa_BotUpdates")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Alexa_Help")
@@ -58,7 +58,7 @@ AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "11500"))
 
 AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))
 
-AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
+AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", True)
 
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
 
@@ -86,7 +86,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BAE82f0AgDMLVtcna5Bjki7V0uwy5lm_llZNGymCD4n8TLNLJwoRcRWV5JI1FDO97_7yxx1rs-LKXdxb9VvEL_-9LcXSobsqnsECRY1fLd3eEwUNX1BclhGtYp0BieqtEuapF0Hx0niWe0e-ZH-Ajfz-mTZAWiBR6n8xoHxM9UciT0AKREmvj-yh-JkXiVt-4SROIZc9-Comeb9kpzUJpLJ1-vXDG39DTFIuSpfwRrwEy8Bb0SeGAodW3JTJYBpBhg0rUBvISrnxH9VXWNqj5xBJuh-4EJLvizzEOGoRZrL8R6SPnp-OWb1b7uSGjEMJZmoOs7x1VEz0wvR3xGfM4ptirY8AJgAAAAFfVjuuAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
